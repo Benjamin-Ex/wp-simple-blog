@@ -1,0 +1,16 @@
+.copyright{
+    text-align: right;
+    margin-bottom: 0.5em;
+        @media (max-width: $small) {
+            order: 3;
+            align-self: flex-end;
+        }
+
+    &__title{
+        margin: 0;
+    }
+
+    &__text{
+        margin: 0;
+    }
+}

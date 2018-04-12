@@ -1,0 +1,22 @@
+.wrong-url{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__content h2{
+    margin-bottom: 2em;
+  }
+
+  &__content a{
+    background-color: $main-color;
+    padding: 0.5em 0.8em;
+    transition: .3s;
+    font-weight: 700;
+  }
+
+  &__content a:hover{
+    background-color: #232323;
+    color: $main-color;
+  }
+}

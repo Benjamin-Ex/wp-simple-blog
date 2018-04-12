@@ -1,0 +1,7 @@
+.sign{
+    font-size: 2em;
+        @media (max-width: $small) {
+            order: 2;
+            margin: 1em 0;
+        }
+}

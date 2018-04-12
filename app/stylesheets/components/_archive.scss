@@ -1,0 +1,13 @@
+.archive {
+    margin-bottom: 3em;
+
+    &__title{
+        font-size: 0.8em;
+    }
+
+    &__text {
+        font-size: 0.8em;
+        text-transform: uppercase;
+        color: lighten($text-color, 30%);
+    }
+}

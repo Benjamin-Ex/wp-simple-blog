@@ -1,0 +1,32 @@
+.sidebar {
+    margin-top: 3em;
+    h2{
+        text-transform: uppercase;
+    }
+            @media (max-width: $small) {
+              margin-top: 15%;
+            }
+}
+
+.sidebar ul{
+    padding-left: 1em;
+}
+
+.sidebar li{
+    list-style: none;
+    margin-bottom: 3em;
+}
+
+& li.categories{
+  font-weight: 700;
+  padding-left: 1em;
+}
+
+& li.categories ul{
+  padding: 0;
+}
+
+& ul li.cat-item{
+  margin-bottom: 1em;
+  font-weight: normal;
+}

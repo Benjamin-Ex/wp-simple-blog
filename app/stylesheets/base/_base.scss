@@ -1,0 +1,14 @@
+body{
+    font-size: 14px;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+body, input{
+    font-family: 'Montserrat', $fallback-font-stack;
+}
+
+a{
+    text-decoration : none;
+    color: $text-color;
+}

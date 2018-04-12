@@ -1,0 +1,15 @@
+.social-nav {
+    font-size: 2.5em;
+        @media (max-width: $extra-small) {
+            width: 40% !important;
+        }
+
+    ul {
+        display: flex;
+        width: 100%;
+        list-style: none;
+        justify-content: space-between;
+        padding: 0;
+        margin: 0;
+    }
+}
